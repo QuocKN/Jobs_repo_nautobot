@@ -1,5 +1,4 @@
-"""Jobs for nautobot_docker_compose."""
 from nautobot.extras.jobs import register_jobs
-from .hello_world import HelloWorldJob
+from .job_ex1 import HelloWorldJob
 
 register_jobs(HelloWorldJob)
